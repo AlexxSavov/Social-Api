@@ -13,7 +13,7 @@ const UsersSchema = new Schema(
         required: true,
         unique: true,
 
-    },
+    
 
       // REGEX to validate correct email refer to assignment 17
 
