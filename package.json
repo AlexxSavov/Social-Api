@@ -1,0 +1,24 @@
+{
+  "name": "social-api",
+  "version": "1.0.0",
+  "description": "This is a social network api. a backend project using nosql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexxSavov/Social-Api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexxSavov/Social-Api/issues"
+  },
+  "homepage": "https://github.com/AlexxSavov/Social-Api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
