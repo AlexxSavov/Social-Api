@@ -15,7 +15,12 @@ const UsersSchema = new Schema(
 
     },
 
-    
+      // REGEX to validate correct email refer to assignment 17
+
+      match: [/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/]
+
+
+    },
     
     thoughts: [{
         type: Schema.Types.ObjectId,
