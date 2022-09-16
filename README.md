@@ -40,7 +40,6 @@ clone repo- open terminal - npm i - npm start - test routes using Insomnia
 
 ## Packages
 - express
-- moment
 - mongoose
 
 ## Author
